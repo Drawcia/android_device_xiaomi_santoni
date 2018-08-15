@@ -1,0 +1,1 @@
+allow platform_app { qemu_hw_mainkeys_prop proc_vmstat }:file r_file_perms;

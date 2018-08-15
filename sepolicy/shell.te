@@ -1,0 +1,1 @@
+allow shell { init_exec sysfs_graphics }:file getattr;
