@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     mm-qcamera-app \
     Snap
-    Camera2
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
