@@ -20,7 +20,7 @@ allow hal_fingerprint_santoni storage_file:lnk_file read;
 allow hal_fingerprint_santoni mnt_user_file:dir search;
 allow hal_fingerprint_santoni mnt_user_file:lnk_file read;
 allow hal_fingerprint_santoni sdcardfs:dir search;
-allow hal_fingerprint_santoni media_rw_data_file:dir { read open }
+allow hal_fingerprint_santoni media_rw_data_file:dir { read open };
 
 set_prop(hal_fingerprint_santoni, system_prop)
 r_dir_file(hal_fingerprint_santoni, firmware_file)
